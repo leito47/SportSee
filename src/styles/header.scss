@@ -1,0 +1,28 @@
+@import "./variables";
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: black;
+
+  max-height: 90px;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  &__navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__navbar a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+}
